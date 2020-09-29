@@ -7418,11 +7418,11 @@ body.nk-body-overflow .nk-share-buttons {
     background-size: cover;
 
     position: relative;
-    height: 100%;
-    padding: 20px;
     overflow: hidden;
     color: #0e0e0e;
-    text-align: center;
+    text-align: left;
+
+    border-radius: 10px;
 
   
 
@@ -7484,7 +7484,7 @@ body.nk-body-overflow .nk-share-buttons {
 .nk-pricing .nk-pricing-features,
 .nk-pricing .nk-pricing-button {
     position: relative;
-    padding: 15px 0;
+    padding: 0 15px 15px 15px;
 }
 
 /* .nk-pricing .nk-pricing-title::after,

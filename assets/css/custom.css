@@ -132,13 +132,24 @@
   }
 }
 
+.shape-title {
+  /* margin-right: auto;
+  margin-left: auto; */
+
+  background-color: #0e0e0e;
+  color: #ffffff;
+
+  top: 1px;
+  margin: 0px -50px 0px -50px ;
+
+
+}
 
 .nk-pricing-mod-shape {
   /* margin-right: auto;
   margin-left: auto; */
 
-  border: 1px solid black;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   bottom: 0;
 }
 
@@ -168,12 +179,11 @@
 
 .nk-pricing-mod {
 
-  background: url('../../assets/images/pledges/texture3.jpg');
+  /* background: url('../../assets/images/pledges/texture3.jpg'); */
 
   background-size: cover;
 
-  position: relative;
-  height: 100%;
+  position: fixed;
   padding: 20px;
   overflow: hidden;
   color: #0e0e0e;
@@ -237,3 +247,5 @@
     padding: 0px !important; 
     }
 }
+
+
