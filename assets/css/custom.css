@@ -249,3 +249,53 @@
 }
 
 
+.img-mod{
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin-top: 10px;
+
+  width: 80px;
+} 
+
+.character_sidebar {
+
+
+  padding: 0;
+  list-style-type: none;
+
+  margin-left: -10px;
+}
+
+
+
+.mod-slide-top {
+
+  background: rgba(255, 255, 255, 0.50);
+  width: 5px;
+  height: 350px;
+
+  margin: auto;
+
+}
+
+.mod-slide-down {
+
+  background: rgba(255, 255, 255, 0.50);
+  width: 5px;
+  height: 400px;
+
+  margin: auto;
+
+}
+
+
+.mod-line {
+  display: block;
+  content: '';
+  width: 60px;
+  height: 5px;
+  background: #ffffff;
+
+  margin: 10px 0 20px 0;
+}

@@ -7413,7 +7413,8 @@ body.nk-body-overflow .nk-share-buttons {
  ----------------------------*/
 .nk-pricing {
 
-    background: url('../../assets/images/pledges/texture.jpg');
+    /* background: url('../../assets/images/pledges/texture.jpg'); */
+    background-color: white;
 
     background-size: cover;
 
