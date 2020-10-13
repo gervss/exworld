@@ -7764,9 +7764,9 @@ body.nk-body-overflow .nk-share-buttons {
 .nk-flickity-arrow {
     position: absolute;
     top: 50%;
-    width: 45px;
-    height: 45px;
-    padding: 8px;
+    width: 25px;
+    height: 25px;
+    /* padding: 8px; */
     line-height: 1.4;
     color: #fff;
     text-align: center;
@@ -7804,18 +7804,18 @@ body.nk-body-overflow .nk-share-buttons {
 
 .nk-flickity-arrow.nk-flickity-arrow-prev {
     left: 30px;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .nk-flickity-arrow.nk-flickity-arrow-next {
     right: 30px;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .nk-flickity-arrow .nk-icon-arrow-right,
 .nk-flickity-arrow .nk-icon-arrow-left {
     width: 16px;
-    margin-top: 3px;
+    /* margin-top: 5px; */
 }
 
 .flickity-viewport.is-dragging a {

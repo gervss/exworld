@@ -250,13 +250,19 @@
 
 
 .img-mod{
-  padding: 10px 10px 10px 10px;
+  padding: 8px 10px 8px 10px;
   background-color: rgba(0, 0, 0, 0.5);
 
-  margin-top: 10px;
+  margin-top: 15px;
 
   width: 80px;
+
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 1px;
 } 
+
+
 
 .character_sidebar {
 
@@ -268,12 +274,24 @@
 }
 
 
+/* Change background color of buttons on hover */
+.img-mod a:hover li:hover {
+  background-color: goldenrod;
+}
+
+/* Create an active/current tablink class */
+.img-mod a.active li:active{
+  background-color: #ccc;
+}
+
+
+
 
 .mod-slide-top {
 
-  background: rgba(255, 255, 255, 0.50);
-  width: 5px;
-  height: 350px;
+  background: rgba(255, 255, 255, 0.30);
+  width: 4px;
+  height: 100px;
 
   margin: auto;
 
@@ -281,11 +299,14 @@
 
 .mod-slide-down {
 
-  background: rgba(255, 255, 255, 0.50);
-  width: 5px;
-  height: 400px;
+  background: rgba(255, 255, 255, 0.30);
+  width: 4px;
+  height: 200px;
 
   margin: auto;
+
+  margin-top: 20px;
+
 
 }
 
@@ -298,4 +319,71 @@
   background: #ffffff;
 
   margin: 10px 0 20px 0;
+}
+
+
+.mod-navbar a {
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+
+  margin-top: 15px;
+
+
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.mod-navbar a:hover{
+  border-color: #e08821 ;
+
+}
+
+.mod-navbar a:active  {
+  border-color: #e08821 ;
+
+}
+
+.mod-navbar a:focus  {
+  border-color: #e08821 ;
+
+}
+
+
+.mod-active {
+  border-color: #e08821 ;
+}
+
+
+.mod-center {
+  display: block;
+  margin: auto;
+}
+
+.mod-disabled {
+  /* Make the disabled links grayish*/
+  color: gray;
+  /* And disable the pointer events */
+  pointer-events: none;
+  opacity: 10%;
+}
+
+
+@media (max-width: 1000px) {
+  .mobile-slider {
+    display: none;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .mobile-tom {
+    display: none;
+
+  }
 }
